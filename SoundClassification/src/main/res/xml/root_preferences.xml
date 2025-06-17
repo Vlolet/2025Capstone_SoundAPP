@@ -1,0 +1,79 @@
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory
+        android:title="Delegate">
+        <SwitchPreference
+            android:key="use_gpu"
+            android:title="Use GPU / NPU"
+            android:summary="하드웨어 가속 설정 (off 시 CPU만 사용)"
+            android:defaultValue="false" />
+    </PreferenceCategory>
+
+
+<!--    <PreferenceCategory-->
+<!--        app:title="@string/messages_header">-->
+
+<!--        <EditTextPreference-->
+<!--            app:key="signature"-->
+<!--            app:title="@string/signature_title"-->
+<!--            app:useSimpleSummaryProvider="true"/>-->
+
+<!--        <ListPreference-->
+<!--            app:key="reply"-->
+<!--            app:title="@string/reply_title"-->
+<!--            app:entries="@array/reply_entries"-->
+<!--            app:entryValues="@array/reply_values"-->
+<!--            app:defaultValue="reply"-->
+<!--            app:useSimpleSummaryProvider="true"/>-->
+
+<!--    </PreferenceCategory>-->
+
+<!--    <PreferenceCategory-->
+<!--        app:title="@string/sync_header">-->
+
+<!--        <SwitchPreferenceCompat-->
+<!--            app:key="sync"-->
+<!--            app:title="@string/sync_title"/>-->
+
+<!--        <SwitchPreferenceCompat-->
+<!--            app:key="attachment"-->
+<!--            app:title="@string/attachment_title"-->
+<!--            app:summaryOn="@string/attachment_summary_on"-->
+<!--            app:summaryOff="@string/attachment_summary_off"-->
+<!--            app:dependency="sync"/>-->
+
+<!--    </PreferenceCategory><PreferenceCategory-->
+<!--        app:title="@string/messages_header">-->
+
+<!--        <EditTextPreference-->
+<!--            app:key="signature"-->
+<!--            app:title="@string/signature_title"-->
+<!--            app:useSimpleSummaryProvider="true"/>-->
+
+<!--        <ListPreference-->
+<!--            app:key="reply"-->
+<!--            app:title="@string/reply_title"-->
+<!--            app:entries="@array/reply_entries"-->
+<!--            app:entryValues="@array/reply_values"-->
+<!--            app:defaultValue="reply"-->
+<!--            app:useSimpleSummaryProvider="true"/>-->
+
+<!--    </PreferenceCategory><PreferenceCategory-->
+<!--        app:title="@string/sync_header">-->
+
+<!--        <SwitchPreferenceCompat-->
+<!--            app:key="sync"-->
+<!--            app:title="@string/sync_title"/>-->
+
+<!--        <SwitchPreferenceCompat-->
+<!--            app:key="attachment"-->
+<!--            app:title="@string/attachment_title"-->
+<!--            app:summaryOn="@string/attachment_summary_on"-->
+<!--            app:summaryOff="@string/attachment_summary_off"-->
+<!--            app:dependency="sync"/>-->
+
+<!--    </PreferenceCategory>-->
+
+</PreferenceScreen>
